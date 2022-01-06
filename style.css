@@ -6,14 +6,16 @@ body {
 h1 {
     font-size: 50px;
 }
-h2{
+
+h2 {
     font-size: 40px;
 }
+
 .orange-color {
     color: orange;
 }
 
-.flexible-container{
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -46,12 +48,14 @@ h2{
     background-repeat: no-repeat;
     background-position: right;
 }
-.experience-area{
+
+.experience-area {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
-.experience-items{
+
+.experience-items {
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
@@ -60,16 +64,19 @@ h2{
     box-shadow: 10px 10px 40px gray;
     border-left: 10px solid;
 }
-#web-dev-experience{
+
+#web-dev-experience {
     border-left: 7px solid;
     border-image: linear-gradient(salmon, tomato);
     border-image-slice: 1;
 }
-#baby-web-experience{
+
+#baby-web-experience {
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
-footer p{
+
+footer p {
     text-align: center;
 }
